@@ -1,38 +1,215 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* .App {
+    width: 100vw;
+    height: 100vh;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: lightblue; */ 
+    /* background-color: lightblue;
+  
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  body {
+    margin: 0;
+    padding: 0;
   }
-  to {
-    transform: rotate(360deg);
-  }
-}
+  .Sidebar{
+    height: 100%;
+    width: 300px;
+    background-color: aqua;
+  /* } */ 
+
+
+
+  /* <div>
+      <div className="ul">
+        <ul>
+          <h1>
+            <i>
+              <b>Make Teak Easy</b>
+            </i>
+          </h1>
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <br></br>
+          <br></br>
+          <li>
+            <a class="active" href="#home">
+              login
+            </a>
+          </li>
+          <br></br>
+          <br></br>
+          <li>
+            <a class="active" href="#home">
+              signup
+            </a>
+          </li>
+          <br></br>
+          <br></br>
+          <li>
+            <a class="active" href="#home">
+              Messages
+            </a>
+          </li>
+          <br></br>
+          <br></br>
+          <li>
+            <a class="active" href="#home">
+              Notification
+            </a>
+          </li>
+          <br></br>
+          <br></br>
+          <li>
+            <a class="active" href="#home">
+              profile
+            </a>
+          </li>
+          <br></br>
+          <br></br>
+          <li>
+            <a class="active" href="#home">
+              your location
+            </a>
+          </li>
+          <br></br>
+          <li>
+            <a class="active" href="https://github.com/GkY273303">
+              Search player
+            </a>
+          </li>
+          <br></br>
+        </ul>
+      </div>
+
+      <div className="mid">
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>
+          Some text. The day before she went on strike, Jenny Butera checked her
+          schedule. Butera, a marriage and family therapist, had a backlog of
+          adult outpatients needing to be seen through her Kaiser Permanente
+          office in downtown Sacramento. Despite days in which she counseled
+          nearly a dozen of them in individual sessions, one after the other,
+          nothing was easing the crunch. The date on Butera’s calendar was Aug.
+          14. “My earliest next appointment,” Butera said, “was mid-October. For
+          anybody.” Join our email list to get the stories that mainstream news
+          is overlooking. Sign up for Capital & Main’s newsletter. To Butera and
+          many of the roughly 2,000 members of the National Union of Healthcare
+          Workers whose strike began more than five weeks ago, the job action
+          felt righteous. It wasn’t about money, she said; it was about
+          improving a chronically understaffed workplace that often leaves
+          patients waiting weeks or months between mental health appointments..
+        </p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>
+          Some text.But NUHW’s members are running into the same wall that many
+          Kaiser mental health patients may already know too well. The tools
+          they have to effect change are limited — and Kaiser’s staying power is
+          real..
+        </p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>
+          Some “We know we’re going to have more people cross the picket line,
+          and that’s exactly why they’re waiting us out,” said Chelsea
+          Wise-Diangson, an initial access coordinator in the child and
+          adolescent psychiatry department at Kaiser’s Santa Clara Homestead
+          Medical Center. “I’ve been able to hold out, but I recognize my
+          [financial] privilege in being able to do text..
+        </p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>
+          Some “We know we’re going to have more people cross the picket line,
+          and that’s exactly why they’re waiting us out,” said Chelsea
+          Wise-Diangson, an initial access coordinator in the child and
+          adolescent psychiatry department at Kaiser’s Santa Clara Homestead
+          Medical Center. “I’ve been able to hold out, but I recognize my
+          [financial] privilege in being able to do text..
+        </p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>
+          Some “We know we’re going to have more people cross the picket line,
+          and that’s exactly why they’re waiting us out,” said Chelsea
+          Wise-Diangson, an initial access coordinator in the child and
+          adolescent psychiatry department at Kaiser’s Santa Clara Homestead
+          Medical Center. “I’ve been able to hold out, but I recognize my
+          [financial] privilege in being able to do text..
+        </p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>
+          Somethat’s exactly why they’re waiting us out,” said Chelsea
+          Wise-Diangson, an initial access coordinator in the child and
+          adolescent psychiatry departm text..
+        </p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+      </div>
+    </div> */
